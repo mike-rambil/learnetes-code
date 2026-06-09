@@ -1,0 +1,21 @@
+{
+  "name": "learnetes-code",
+  "version": "1.0.0",
+  "description": "Core cost and carbon simulation models behind Learnetes — a browser-based Kubernetes cost & carbon simulator for teaching.",
+  "license": "MIT",
+  "author": "Micheal Palliparambil",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "typescript": "^5",
+    "vitest": "^4.1.7"
+  }
+}
